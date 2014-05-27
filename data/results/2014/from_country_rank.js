@@ -73,4 +73,4 @@ UA={"BY":5, "AZ":10, "IS":21, "NO":19, "RO":15, "AM":2, "ME":24, "PL":4, "GR":11
 GB={"UA":16, "BY":21, "AZ":18, "IS":7, "NO":13, "RO":17, "AM":23, "ME":25, "PL":11, "GR":9, "AT":1, "DE":19, "SE":4, "FR":20, "RU":14, "IT":22, "SI":15, "FI":5, "ES":6, "CH":10, "HU":12, "MT":2, "DK":8, "NL":3, "SM":24}
 
 
-from_country_2014_rank = [AL, AM, AT, AZ, BY, BE, DK, EE, MK, FI, FR, GE, DE, GR, HU, IS, IE, IL, IT, LV, LT, MT, MD, ME, NO, PL, PT, RO, RU, SM, SI, ES, SE, CH, NL, UA, GB]
+from_country_2014_rank = {"AL":AL, "AM":AM, "AT":AT, "AZ":AZ, "BY":BY, "BE":BE, "DK":DK, "EE":EE, "MK":MK, "FI":FI, "FR":FR, "GE":GE, "DE":DE, "GR":GR, "HU":HU, "IS":IS, "IE":IE, "IL":IL, "IT":IT, "LV":LV, "LT":LT, "MT":MT, "MD":MD, "ME":ME, "NO":NO, "PL":PL, "PT":PT, "RO":RO, "RU":RU, "SM":SM, "SI":SI, "ES":ES, "SE":SE, "CH":CH, "NL":NL, "UA":UA, "GB":GB}
