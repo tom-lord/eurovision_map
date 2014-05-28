@@ -1,76 +1,76 @@
-AL={"UA":19, "BY":23, "AZ":15, "IS":24, "NO":20, "RO":16, "AM":13, "ME":5, "PL":22, "GR":9, "AT":6, "DE":7, "SE":4, "FR":12, "RU":25, "IT":2, "SI":14, "FI":17, "ES":1, "CH":26, "HU":3, "MT":10, "DK":21, "NL":18, "SM":8, "GB":11}
+var AL={ua:19, by:23, az:15, is:24, no:20, ro:16, am:13, me:5, pl:22, gr:9, at:6, de:7, se:4, fr:12, ru:25, it:2, si:14, fi:17, es:1, ch:26, hu:3, mt:10, dk:21, nl:18, sm:8, gb:11}
 
-AM={"UA":15, "BY":3, "AZ":25, "IS":11, "NO":23, "RO":20, "ME":1, "PL":16, "GR":4, "AT":14, "DE":5, "SE":12, "FR":18, "RU":2, "IT":24, "SI":17, "FI":21, "ES":9, "CH":6, "HU":19, "MT":13, "DK":10, "NL":7, "SM":8, "GB":22}
+var AM={ua:15, by:3, az:25, is:11, no:23, ro:20, me:1, pl:16, gr:4, at:14, de:5, se:12, fr:18, ru:2, it:24, si:17, fi:21, es:9, ch:6, hu:19, mt:13, dk:10, nl:7, sm:8, gb:22}
 
-AT={"UA":6, "BY":20, "AZ":24, "IS":9, "NO":10, "RO":3, "AM":1, "ME":21, "PL":13, "GR":19, "DE":12, "SE":5, "FR":18, "RU":17, "IT":23, "SI":11, "FI":7, "ES":15, "CH":8, "HU":4, "MT":14, "DK":16, "NL":2, "SM":25, "GB":22}
+var AT={ua:6, by:20, az:24, is:9, no:10, ro:3, am:1, me:21, pl:13, gr:19, de:12, se:5, fr:18, ru:17, it:23, si:11, fi:7, es:15, ch:8, hu:4, mt:14, dk:16, nl:2, sm:25, gb:22}
 
-AZ={"UA":2, "BY":4, "IS":21, "NO":24, "RO":5, "AM":25, "ME":18, "PL":9, "GR":7, "AT":10, "DE":23, "SE":13, "FR":22, "RU":1, "IT":16, "SI":15, "FI":20, "ES":12, "CH":11, "HU":3, "MT":6, "DK":19, "NL":17, "SM":8, "GB":14}
+var AZ={ua:2, by:4, is:21, no:24, ro:5, am:25, me:18, pl:9, gr:7, at:10, de:23, se:13, fr:22, ru:1, it:16, si:15, fi:20, es:12, ch:11, hu:3, mt:6, dk:19, nl:17, sm:8, gb:14}
 
-BY={"UA":3, "AZ":8, "IS":17, "NO":7, "RO":10, "AM":2, "ME":25, "PL":4, "GR":5, "AT":14, "DE":15, "SE":12, "FR":24, "RU":1, "IT":22, "SI":21, "FI":16, "ES":20, "CH":11, "HU":6, "MT":13, "DK":18, "NL":9, "SM":19, "GB":23}
+var BY={ua:3, az:8, is:17, no:7, ro:10, am:2, me:25, pl:4, gr:5, at:14, de:15, se:12, fr:24, ru:1, it:22, si:21, fi:16, es:20, ch:11, hu:6, mt:13, dk:18, nl:9, sm:19, gb:23}
 
-BE={"UA":7, "BY":22, "AZ":24, "IS":13, "NO":14, "RO":6, "AM":11, "ME":25, "PL":16, "GR":17, "AT":1, "DE":19, "SE":2, "FR":23, "RU":12, "IT":21, "SI":20, "FI":8, "ES":9, "CH":18, "HU":4, "MT":15, "DK":5, "NL":3, "SM":26, "GB":10}
+var BE={ua:7, by:22, az:24, is:13, no:14, ro:6, am:11, me:25, pl:16, gr:17, at:1, de:19, se:2, fr:23, ru:12, it:21, si:20, fi:8, es:9, ch:18, hu:4, mt:15, dk:5, nl:3, sm:26, gb:10}
 
-DK={"UA":10, "BY":21, "AZ":19, "IS":6, "NO":5, "RO":18, "AM":9, "ME":23, "PL":15, "GR":13, "AT":3, "DE":12, "SE":1, "FR":20, "RU":11, "IT":25, "SI":22, "FI":7, "ES":16, "CH":14, "HU":8, "MT":17, "NL":2, "SM":24, "GB":4}
+var DK={ua:10, by:21, az:19, is:6, no:5, ro:18, am:9, me:23, pl:15, gr:13, at:3, de:12, se:1, fr:20, ru:11, it:25, si:22, fi:7, es:16, ch:14, hu:8, mt:17, nl:2, sm:24, gb:4}
 
-EE={"UA":3, "BY":19, "AZ":15, "IS":20, "NO":8, "RO":17, "AM":6, "ME":22, "PL":25, "GR":23, "AT":7, "DE":18, "SE":2, "FR":21, "RU":10, "IT":24, "SI":26, "FI":5, "ES":9, "CH":12, "HU":4, "MT":16, "DK":13, "NL":1, "SM":11, "GB":14}
+var EE={ua:3, by:19, az:15, is:20, no:8, ro:17, am:6, me:22, pl:25, gr:23, at:7, de:18, se:2, fr:21, ru:10, it:24, si:26, fi:5, es:9, ch:12, hu:4, mt:16, dk:13, nl:1, sm:11, gb:14}
 
-MK={"UA":15, "BY":12, "AZ":23, "IS":24, "NO":21, "RO":7, "AM":3, "ME":1, "PL":6, "GR":22, "AT":8, "DE":20, "SE":13, "FR":26, "RU":5, "IT":9, "SI":10, "FI":16, "ES":11, "CH":14, "HU":2, "MT":18, "DK":17, "NL":4, "SM":25, "GB":19}
+var MK={ua:15, by:12, az:23, is:24, no:21, ro:7, am:3, me:1, pl:6, gr:22, at:8, de:20, se:13, fr:26, ru:5, it:9, si:10, fi:16, es:11, ch:14, hu:2, mt:18, dk:17, nl:4, sm:25, gb:19}
 
-FI={"UA":9, "BY":19, "AZ":16, "IS":12, "NO":4, "RO":21, "AM":7, "ME":25, "PL":20, "GR":18, "AT":1, "DE":22, "SE":2, "FR":10, "RU":15, "IT":17, "SI":23, "ES":11, "CH":13, "HU":6, "MT":8, "DK":5, "NL":3, "SM":24, "GB":14}
+var FI={ua:9, by:19, az:16, is:12, no:4, ro:21, am:7, me:25, pl:20, gr:18, at:1, de:22, se:2, fr:10, ru:15, it:17, si:23, es:11, ch:13, hu:6, mt:8, dk:5, nl:3, sm:24, gb:14}
 
-FR={"UA":19, "BY":25, "AZ":18, "IS":4, "NO":9, "RO":13, "AM":1, "ME":20, "PL":6, "GR":17, "AT":2, "DE":22, "SE":7, "RU":21, "IT":10, "SI":23, "FI":12, "ES":5, "CH":11, "HU":15, "MT":14, "DK":8, "NL":3, "SM":24, "GB":16}
+var FR={ua:19, by:25, az:18, is:4, no:9, ro:13, am:1, me:20, pl:6, gr:17, at:2, de:22, se:7, ru:21, it:10, si:23, fi:12, es:5, ch:11, hu:15, mt:14, dk:8, nl:3, sm:24, gb:16}
 
-GE={"UA":5, "BY":11, "AZ":4, "IS":19, "NO":20, "RO":15, "AM":1, "ME":25, "PL":12, "GR":7, "AT":2, "DE":6, "SE":9, "FR":17, "RU":3, "IT":18, "SI":26, "FI":21, "ES":16, "CH":10, "HU":23, "MT":22, "DK":24, "NL":13, "SM":14, "GB":8}
+var GE={ua:5, by:11, az:4, is:19, no:20, ro:15, am:1, me:25, pl:12, gr:7, at:2, de:6, se:9, fr:17, ru:3, it:18, si:26, fi:21, es:16, ch:10, hu:23, mt:22, dk:24, nl:13, sm:14, gb:8}
 
-DE={"UA":16, "BY":22, "AZ":20, "IS":9, "NO":6, "RO":18, "AM":5, "ME":25, "PL":2, "GR":14, "AT":4, "SE":11, "FR":21, "RU":12, "IT":19, "SI":23, "FI":7, "ES":10, "CH":8, "HU":17, "MT":13, "DK":3, "NL":1, "SM":24, "GB":15}
+var DE={ua:16, by:22, az:20, is:9, no:6, ro:18, am:5, me:25, pl:2, gr:14, at:4, se:11, fr:21, ru:12, it:19, si:23, fi:7, es:10, ch:8, hu:17, mt:13, dk:3, nl:1, sm:24, gb:15}
 
-GR={"UA":6, "BY":11, "AZ":17, "IS":15, "NO":8, "RO":13, "AM":4, "ME":24, "PL":10, "AT":1, "DE":22, "SE":9, "FR":21, "RU":2, "IT":23, "SI":25, "FI":12, "ES":18, "CH":7, "HU":5, "MT":16, "DK":19, "NL":3, "SM":20, "GB":14}
+var GR={ua:6, by:11, az:17, is:15, no:8, ro:13, am:4, me:24, pl:10, at:1, de:22, se:9, fr:21, ru:2, it:23, si:25, fi:12, es:18, ch:7, hu:5, mt:16, dk:19, nl:3, sm:20, gb:14}
 
-HU={"UA":9, "BY":15, "AZ":12, "IS":6, "NO":18, "RO":21, "AM":4, "ME":17, "PL":8, "GR":23, "AT":2, "DE":14, "SE":3, "FR":25, "RU":16, "IT":24, "SI":19, "FI":5, "ES":11, "CH":10, "MT":20, "DK":22, "NL":1, "SM":7, "GB":13}
+var HU={ua:9, by:15, az:12, is:6, no:18, ro:21, am:4, me:17, pl:8, gr:23, at:2, de:14, se:3, fr:25, ru:16, it:24, si:19, fi:5, es:11, ch:10, mt:20, dk:22, nl:1, sm:7, gb:13}
 
-IS={"UA":11, "BY":22, "AZ":15, "NO":10, "RO":14, "AM":9, "ME":24, "PL":8, "GR":16, "AT":2, "DE":13, "SE":4, "FR":20, "RU":17, "IT":25, "SI":19, "FI":6, "ES":23, "CH":21, "HU":5, "MT":12, "DK":3, "NL":1, "SM":18, "GB":7}
+var IS={ua:11, by:22, az:15, no:10, ro:14, am:9, me:24, pl:8, gr:16, at:2, de:13, se:4, fr:20, ru:17, it:25, si:19, fi:6, es:23, ch:21, hu:5, mt:12, dk:3, nl:1, sm:18, gb:7}
 
-IE={"UA":21, "BY":16, "AZ":22, "IS":19, "NO":4, "RO":9, "AM":11, "ME":26, "PL":15, "GR":12, "AT":1, "DE":18, "SE":7, "FR":25, "RU":20, "IT":24, "SI":17, "FI":13, "ES":5, "CH":6, "HU":10, "MT":8, "DK":14, "NL":2, "SM":23, "GB":3}
+var IE={ua:21, by:16, az:22, is:19, no:4, ro:9, am:11, me:26, pl:15, gr:12, at:1, de:18, se:7, fr:25, ru:20, it:24, si:17, fi:13, es:5, ch:6, hu:10, mt:8, dk:14, nl:2, sm:23, gb:3}
 
-IL={"UA":6, "BY":10, "AZ":11, "IS":26, "NO":22, "RO":3, "AM":5, "ME":19, "PL":15, "GR":9, "AT":1, "DE":25, "SE":2, "FR":21, "RU":8, "IT":20, "SI":18, "FI":12, "ES":7, "CH":17, "HU":4, "MT":24, "DK":16, "NL":14, "SM":23, "GB":13}
+var IL={ua:6, by:10, az:11, is:26, no:22, ro:3, am:5, me:19, pl:15, gr:9, at:1, de:25, se:2, fr:21, ru:8, it:20, si:18, fi:12, es:7, ch:17, hu:4, mt:24, dk:16, nl:14, sm:23, gb:13}
 
-IT={"UA":2, "BY":23, "AZ":24, "IS":4, "NO":16, "RO":6, "AM":14, "ME":20, "PL":3, "GR":8, "AT":1, "DE":17, "SE":12, "FR":25, "RU":15, "SI":11, "FI":5, "ES":21, "CH":9, "HU":19, "MT":10, "DK":18, "NL":7, "SM":13, "GB":22}
+var IT={ua:2, by:23, az:24, is:4, no:16, ro:6, am:14, me:20, pl:3, gr:8, at:1, de:17, se:12, fr:25, ru:15, si:11, fi:5, es:21, ch:9, hu:19, mt:10, dk:18, nl:7, sm:13, gb:22}
 
-LV={"UA":4, "BY":12, "AZ":11, "IS":13, "NO":6, "RO":20, "AM":2, "ME":23, "PL":19, "GR":24, "AT":5, "DE":14, "SE":3, "FR":26, "RU":9, "IT":25, "SI":22, "FI":8, "ES":7, "CH":15, "HU":10, "MT":16, "DK":17, "NL":1, "SM":21, "GB":18}
+var LV={ua:4, by:12, az:11, is:13, no:6, ro:20, am:2, me:23, pl:19, gr:24, at:5, de:14, se:3, fr:26, ru:9, it:25, si:22, fi:8, es:7, ch:15, hu:10, mt:16, dk:17, nl:1, sm:21, gb:18}
 
-LT={"UA":6, "BY":8, "AZ":12, "IS":11, "NO":3, "RO":25, "AM":16, "ME":24, "PL":15, "GR":21, "AT":2, "DE":17, "SE":4, "FR":26, "RU":5, "IT":23, "SI":19, "FI":14, "ES":7, "CH":9, "HU":13, "MT":22, "DK":10, "NL":1, "SM":20, "GB":18}
+var LT={ua:6, by:8, az:12, is:11, no:3, ro:25, am:16, me:24, pl:15, gr:21, at:2, de:17, se:4, fr:26, ru:5, it:23, si:19, fi:14, es:7, ch:9, hu:13, mt:22, dk:10, nl:1, sm:20, gb:18}
 
-MT={"UA":21, "BY":11, "AZ":16, "IS":24, "NO":9, "RO":3, "AM":5, "ME":17, "PL":14, "GR":10, "AT":2, "DE":23, "SE":4, "FR":25, "RU":6, "IT":1, "SI":18, "FI":20, "ES":12, "CH":8, "HU":22, "DK":15, "NL":13, "SM":19, "GB":7}
+var MT={ua:21, by:11, az:16, is:24, no:9, ro:3, am:5, me:17, pl:14, gr:10, at:2, de:23, se:4, fr:25, ru:6, it:1, si:18, fi:20, es:12, ch:8, hu:22, dk:15, nl:13, sm:19, gb:7}
 
-MD={"UA":2, "BY":6, "AZ":13, "IS":26, "NO":19, "RO":1, "AM":8, "ME":24, "PL":9, "GR":16, "AT":4, "DE":15, "SE":5, "FR":25, "RU":3, "IT":21, "SI":22, "FI":23, "ES":14, "CH":11, "HU":7, "MT":20, "DK":18, "NL":12, "SM":10, "GB":17}
+var MD={ua:2, by:6, az:13, is:26, no:19, ro:1, am:8, me:24, pl:9, gr:16, at:4, de:15, se:5, fr:25, ru:3, it:21, si:22, fi:23, es:14, ch:11, hu:7, mt:20, dk:18, nl:12, sm:10, gb:17}
 
-ME={"UA":4, "BY":10, "AZ":19, "IS":20, "NO":24, "RO":14, "AM":2, "PL":7, "GR":15, "AT":9, "DE":11, "SE":8, "FR":18, "RU":12, "IT":5, "SI":3, "FI":25, "ES":21, "CH":6, "HU":1, "MT":17, "DK":22, "NL":16, "SM":13, "GB":23}
+var ME={ua:4, by:10, az:19, is:20, no:24, ro:14, am:2, pl:7, gr:15, at:9, de:11, se:8, fr:18, ru:12, it:5, si:3, fi:25, es:21, ch:6, hu:1, mt:17, dk:22, nl:16, sm:13, gb:23}
 
-NO={"UA":15, "BY":20, "AZ":22, "IS":5, "RO":7, "AM":18, "ME":19, "PL":9, "GR":12, "AT":2, "DE":17, "SE":3, "FR":21, "RU":23, "IT":24, "SI":13, "FI":4, "ES":6, "CH":14, "HU":16, "MT":11, "DK":10, "NL":1, "SM":25, "GB":8}
+var NO={ua:15, by:20, az:22, is:5, ro:7, am:18, me:19, pl:9, gr:12, at:2, de:17, se:3, fr:21, ru:23, it:24, si:13, fi:4, es:6, ch:14, hu:16, mt:11, dk:10, nl:1, sm:25, gb:8}
 
-PL={"UA":6, "BY":14, "AZ":19, "IS":15, "NO":4, "RO":23, "AM":10, "ME":24, "GR":17, "AT":11, "DE":3, "SE":7, "FR":16, "RU":20, "IT":25, "SI":18, "FI":8, "ES":9, "CH":2, "HU":13, "MT":12, "DK":5, "NL":1, "SM":22, "GB":21}
+var PL={ua:6, by:14, az:19, is:15, no:4, ro:23, am:10, me:24, gr:17, at:11, de:3, se:7, fr:16, ru:20, it:25, si:18, fi:8, es:9, ch:2, hu:13, mt:12, dk:5, nl:1, sm:22, gb:21}
 
-PT={"UA":12, "BY":23, "AZ":17, "IS":24, "NO":8, "RO":10, "AM":7, "ME":14, "PL":22, "GR":25, "AT":1, "DE":15, "SE":3, "FR":26, "RU":9, "IT":20, "SI":21, "FI":16, "ES":11, "CH":4, "HU":5, "MT":18, "DK":6, "NL":2, "SM":19, "GB":13}
+var PT={ua:12, by:23, az:17, is:24, no:8, ro:10, am:7, me:14, pl:22, gr:25, at:1, de:15, se:3, fr:26, ru:9, it:20, si:21, fi:16, es:11, ch:4, hu:5, mt:18, dk:6, nl:2, sm:19, gb:13}
 
-RO={"UA":11, "BY":13, "AZ":22, "IS":24, "NO":10, "AM":4, "ME":21, "PL":23, "GR":12, "AT":3, "DE":9, "SE":1, "FR":25, "RU":20, "IT":17, "SI":14, "FI":16, "ES":6, "CH":5, "HU":2, "MT":18, "DK":7, "NL":8, "SM":19, "GB":15}
+var RO={ua:11, by:13, az:22, is:24, no:10, am:4, me:21, pl:23, gr:12, at:3, de:9, se:1, fr:25, ru:20, it:17, si:14, fi:16, es:6, ch:5, hu:2, mt:18, dk:7, nl:8, sm:19, gb:15}
 
-RU={"UA":4, "BY":1, "AZ":2, "IS":10, "NO":11, "RO":23, "AM":3, "ME":19, "PL":20, "GR":7, "AT":6, "DE":21, "SE":9, "FR":24, "IT":25, "SI":17, "FI":16, "ES":22, "CH":12, "HU":5, "MT":15, "DK":18, "NL":8, "SM":13, "GB":14}
+var RU={ua:4, by:1, az:2, is:10, no:11, ro:23, am:3, me:19, pl:20, gr:7, at:6, de:21, se:9, fr:24, it:25, si:17, fi:16, es:22, ch:12, hu:5, mt:15, dk:18, nl:8, sm:13, gb:14}
 
-SM={"UA":13, "BY":22, "AZ":1, "IS":3, "NO":12, "RO":25, "AM":5, "ME":18, "PL":23, "GR":21, "AT":14, "DE":11, "SE":2, "FR":19, "RU":24, "IT":17, "SI":20, "FI":8, "ES":16, "CH":15, "HU":4, "MT":7, "DK":10, "NL":9, "GB":6}
+var SM={ua:13, by:22, az:1, is:3, no:12, ro:25, am:5, me:18, pl:23, gr:21, at:14, de:11, se:2, fr:19, ru:24, it:17, si:20, fi:8, es:16, ch:15, hu:4, mt:7, dk:10, nl:9, gb:6}
 
-SI={"UA":20, "BY":14, "AZ":16, "IS":12, "NO":6, "RO":17, "AM":24, "ME":4, "PL":10, "GR":21, "AT":1, "DE":9, "SE":3, "FR":22, "RU":18, "IT":11, "FI":19, "ES":7, "CH":8, "HU":15, "MT":13, "DK":5, "NL":2, "SM":25, "GB":23}
+var SI={ua:20, by:14, az:16, is:12, no:6, ro:17, am:24, me:4, pl:10, gr:21, at:1, de:9, se:3, fr:22, ru:18, it:11, fi:19, es:7, ch:8, hu:15, mt:13, dk:5, nl:2, sm:25, gb:23}
 
-ES={"UA":5, "BY":25, "AZ":23, "IS":10, "NO":13, "RO":3, "AM":7, "ME":18, "PL":11, "GR":14, "AT":1, "DE":21, "SE":2, "FR":16, "RU":17, "IT":19, "SI":22, "FI":20, "CH":15, "HU":9, "MT":12, "DK":8, "NL":4, "SM":24, "GB":6}
+var ES={ua:5, by:25, az:23, is:10, no:13, ro:3, am:7, me:18, pl:11, gr:14, at:1, de:21, se:2, fr:16, ru:17, it:19, si:22, fi:20, ch:15, hu:9, mt:12, dk:8, nl:4, sm:24, gb:6}
 
-SE={"UA":12, "BY":23, "AZ":24, "IS":7, "NO":8, "RO":14, "AM":6, "ME":20, "PL":9, "GR":13, "AT":1, "DE":16, "FR":10, "RU":17, "IT":21, "SI":25, "FI":5, "ES":18, "CH":19, "HU":4, "MT":11, "DK":3, "NL":2, "SM":22, "GB":15}
+var SE={ua:12, by:23, az:24, is:7, no:8, ro:14, am:6, me:20, pl:9, gr:13, at:1, de:16, fr:10, ru:17, it:21, si:25, fi:5, es:18, ch:19, hu:4, mt:11, dk:3, nl:2, sm:22, gb:15}
 
-CH={"UA":22, "BY":23, "AZ":24, "IS":17, "NO":6, "RO":15, "AM":12, "ME":20, "PL":14, "GR":16, "AT":1, "DE":4, "SE":5, "FR":19, "RU":21, "IT":9, "SI":18, "FI":7, "ES":3, "HU":10, "MT":11, "DK":8, "NL":2, "SM":25, "GB":13}
+var CH={ua:22, by:23, az:24, is:17, no:6, ro:15, am:12, me:20, pl:14, gr:16, at:1, de:4, se:5, fr:19, ru:21, it:9, si:18, fi:7, es:3, hu:10, mt:11, dk:8, nl:2, sm:25, gb:13}
 
-NL={"UA":14, "BY":21, "AZ":15, "IS":5, "NO":2, "RO":17, "AM":4, "ME":12, "PL":13, "GR":19, "AT":1, "DE":20, "SE":3, "FR":24, "RU":16, "IT":25, "SI":23, "FI":9, "ES":11, "CH":8, "HU":7, "MT":6, "DK":10, "SM":22, "GB":18}
+var NL={ua:14, by:21, az:15, is:5, no:2, ro:17, am:4, me:12, pl:13, gr:19, at:1, de:20, se:3, fr:24, ru:16, it:25, si:23, fi:9, es:11, ch:8, hu:7, mt:6, dk:10, sm:22, gb:18}
 
-UA={"BY":5, "AZ":10, "IS":21, "NO":19, "RO":15, "AM":2, "ME":24, "PL":4, "GR":11, "AT":3, "DE":6, "SE":1, "FR":22, "RU":7, "IT":25, "SI":14, "FI":16, "ES":9, "CH":12, "HU":8, "MT":23, "DK":20, "NL":13, "SM":17, "GB":18}
+var UA={by:5, az:10, is:21, no:19, ro:15, am:2, me:24, pl:4, gr:11, at:3, de:6, se:1, fr:22, ru:7, it:25, si:14, fi:16, es:9, ch:12, hu:8, mt:23, dk:20, nl:13, sm:17, gb:18}
 
-GB={"UA":16, "BY":21, "AZ":18, "IS":7, "NO":13, "RO":17, "AM":23, "ME":25, "PL":11, "GR":9, "AT":1, "DE":19, "SE":4, "FR":20, "RU":14, "IT":22, "SI":15, "FI":5, "ES":6, "CH":10, "HU":12, "MT":2, "DK":8, "NL":3, "SM":24}
+var GB={ua:16, by:21, az:18, is:7, no:13, ro:17, am:23, me:25, pl:11, gr:9, at:1, de:19, se:4, fr:20, ru:14, it:22, si:15, fi:5, es:6, ch:10, hu:12, mt:2, dk:8, nl:3, sm:24}
 
 
-from_country_2014_rank = {"AL":AL, "AM":AM, "AT":AT, "AZ":AZ, "BY":BY, "BE":BE, "DK":DK, "EE":EE, "MK":MK, "FI":FI, "FR":FR, "GE":GE, "DE":DE, "GR":GR, "HU":HU, "IS":IS, "IE":IE, "IL":IL, "IT":IT, "LV":LV, "LT":LT, "MT":MT, "MD":MD, "ME":ME, "NO":NO, "PL":PL, "PT":PT, "RO":RO, "RU":RU, "SM":SM, "SI":SI, "ES":ES, "SE":SE, "CH":CH, "NL":NL, "UA":UA, "GB":GB}
+var from_country_2014_rank = {"AL":AL, "AM":AM, "AT":AT, "AZ":AZ, "BY":BY, "BE":BE, "DK":DK, "EE":EE, "MK":MK, "FI":FI, "FR":FR, "GE":GE, "DE":DE, "GR":GR, "HU":HU, "IS":IS, "IE":IE, "IL":IL, "IT":IT, "LV":LV, "LT":LT, "MT":MT, "MD":MD, "ME":ME, "NO":NO, "PL":PL, "PT":PT, "RO":RO, "RU":RU, "SM":SM, "SI":SI, "ES":ES, "SE":SE, "CH":CH, "NL":NL, "UA":UA, "GB":GB}
