@@ -26,5 +26,8 @@ COLOUR_SCHEMES = {
         '#ad2e06',
         '#b62503',
         '#bf1c00'  // Red
-    ]
+    ],
+
+    voted_only : '#ff69b4',
+    not_participating : '#cccccc'
 }
