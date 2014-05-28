@@ -14,6 +14,40 @@
     
     <script type="text/javascript">
     jQuery(document).ready(function() {
+        // Helper functions
+        function set_colour_scheme(new_colour_scheme)
+        {
+            jQuery('#vmap').vectorMap('set', 'colors', new_colour_scheme);
+        }
+
+        function get_rankings_for_country(code)
+        {
+            //TODO: One day, this will be a configurable lookup
+            // e.g. Use 2013 data, or switch to "votes FOR country" mode
+            return from_country_2014_rank[code.toUpperCase()];
+        }
+
+        function verbose_label(label, code)
+        {
+            //TODO: Add some "if_participated" flag here
+            var new_label = label[0].textContent
+                + "<br />Position: X/Y (TODO!)"
+                + "<br />Total Score: (TODO!)";
+            return new_label;
+        }
+
+        function get_colour_scheme(rankings)
+        {
+            //TODO: One day, colour_scheme will be configurable
+            // e.g. "Gold/Silver/Bronze only", or "Full green-->red"
+            var new_colour_scheme = {};
+            jQuery.each(rankings, function(idx){ 
+                new_colour_scheme[idx] = colour_scheme[this];
+            })
+            return new_colour_scheme;
+        }
+
+        // Main code
         jQuery('#vmap').vectorMap({
             map: 'europe_en',
             enableZoom: false,
@@ -21,22 +55,14 @@
             selectedRegion: 'GB',
             onLabelShow: function(element, label, code)
             {
-                //TODO: Add some "if_participated" flag here
-                var new_label = label[0].textContent
-                    + "<br />Position: X/Y (TODO!)"
-                    + "<br />Total Score: (TODO!)";
-
-                label.html(new_label);
+                label.html(verbose_label(label, code));
             },
             onRegionClick: function(event, code, region)
             {
-                var rankings = from_country_2014_rank[code.toUpperCase()];
-		var new_colour_scheme = {};
-		jQuery.each(rankings, function(idx){ 
-                    new_colour_scheme[idx] = colour_scheme[this];
-		})
+                var rankings = get_rankings_for_country(code)
+                var new_colour_scheme = get_colour_scheme(rankings)
 
-		jQuery('#vmap').vectorMap('set', 'colors', new_colour_scheme);
+                set_colour_scheme(new_colour_scheme)
             }
         });
     });
