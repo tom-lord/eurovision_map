@@ -13,6 +13,7 @@
     <script src="./data/results/2014/from_country_rank.js" type="text/javascript"></script>
     <script src="./data/country_lists/2014_contestants.js" type="text/javascript"></script>
     <script src="./data/country_lists/countries_on_map.js" type="text/javascript"></script>
+    <script src="./lib/helpers.js" type="text/javascript"></script>
     <script src="./lib/colour_scheme.js" type="text/javascript"></script>
     <script src="./lib/config.js" type="text/javascript"></script>
     <script src="./lib/voting_systems.js" type="text/javascript"></script>
@@ -33,7 +34,7 @@
             },
             onRegionClick: function(event, code, region)
             {
-                var new_colour_scheme = get_colour_scheme(CONFIG.rankings(code));
+                var new_colour_scheme = get_colour_scheme(rankings(code));
                 set_colour_scheme(new_colour_scheme);
             }
         });
