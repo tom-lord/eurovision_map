@@ -73,4 +73,4 @@ var UA={by:5, az:10, is:21, no:19, ro:15, am:2, me:24, pl:4, gr:11, at:3, de:6, 
 var GB={ua:16, by:21, az:18, is:7, no:13, ro:17, am:23, me:25, pl:11, gr:9, at:1, de:19, se:4, fr:20, ru:14, it:22, si:15, fi:5, es:6, ch:10, hu:12, mt:2, dk:8, nl:3, sm:24}
 
 
-var from_country_2014_rank = {"AL":AL, "AM":AM, "AT":AT, "AZ":AZ, "BY":BY, "BE":BE, "DK":DK, "EE":EE, "MK":MK, "FI":FI, "FR":FR, "GE":GE, "DE":DE, "GR":GR, "HU":HU, "IS":IS, "IE":IE, "IL":IL, "IT":IT, "LV":LV, "LT":LT, "MT":MT, "MD":MD, "ME":ME, "NO":NO, "PL":PL, "PT":PT, "RO":RO, "RU":RU, "SM":SM, "SI":SI, "ES":ES, "SE":SE, "CH":CH, "NL":NL, "UA":UA, "GB":GB}
+var from_country_2014_combined = {"AL":AL, "AM":AM, "AT":AT, "AZ":AZ, "BY":BY, "BE":BE, "DK":DK, "EE":EE, "MK":MK, "FI":FI, "FR":FR, "GE":GE, "DE":DE, "GR":GR, "HU":HU, "IS":IS, "IE":IE, "IL":IL, "IT":IT, "LV":LV, "LT":LT, "MT":MT, "MD":MD, "ME":ME, "NO":NO, "PL":PL, "PT":PT, "RO":RO, "RU":RU, "SM":SM, "SI":SI, "ES":ES, "SE":SE, "CH":CH, "NL":NL, "UA":UA, "GB":GB}
