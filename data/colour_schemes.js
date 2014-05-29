@@ -29,5 +29,6 @@ COLOUR_SCHEMES = {
     ],
 
     voted_only : '#ff69b4',
-    not_participating : '#cccccc'
+    not_participating : '#e0e0e0',
+    never_participated : '#d3d3d3'
 }
