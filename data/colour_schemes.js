@@ -1,6 +1,6 @@
 COLOUR_SCHEMES = {
     green_to_red : [
-        "#00e520",
+        "#00e520", // Green
         "#07db1f",
         "#0fd21e",
         "#16c91e",
@@ -26,10 +26,10 @@ COLOUR_SCHEMES = {
         "#af1214",
         "#b70913",
         "#bf0013",
-        "#bf0033"
+        "#bf0033"  // Red
     ],
 
-    voted_only : '#ff69b4',
-    not_participating : '#e0e0e0',
-    never_participated : '#d3d3d3'
+    voted_only : '#ff69b4', // Pink
+    not_participating : '#e0e0e0', // Light grey
+    never_participated : '#d3d3d3' // Dark grey
 }
