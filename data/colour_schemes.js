@@ -29,6 +29,36 @@ COLOUR_SCHEMES = {
         "#bf0033"  // Red
     ],
 
+//TODO: Genealise this, and make it more red.
+    point_awarders : [
+        "#00e520", // Green
+        "#07db1f",
+        "#0fd21e",
+        "#16c91e",
+        "#1ec01d",
+        "#26b71d",
+        "#2dae1c",
+        "#35a41c",
+        "#3d9b1b",
+        "#44921b",
+        "#ffffff", // White
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff"
+    ],
+
     voted_only : '#ff69b4', // Pink
     not_participating : '#e0e0e0', // Light grey
     never_participated : '#d3d3d3' // Dark grey
