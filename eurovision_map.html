@@ -34,7 +34,10 @@
             },
             onRegionClick: function(event, code, region)
             {
-                if( !(country_entered(code) || country_voted_only(code)) )
+                if(
+                    !country_participated(code)
+                    || (country_voted_only(code) && CONFIG.vote_type=="to_country")
+                  )
                 {
                     // Prevents unhandled exceptions, and confusing highlighting
                     event.preventDefault();
