@@ -34,6 +34,12 @@
             },
             onRegionClick: function(event, code, region)
             {
+                if( !(country_entered(code) || country_voted_only(code)) )
+                {
+                    // Prevents unhandled exceptions, and confusing highlighting
+                    event.preventDefault();
+                    return;
+                }
                 var new_colour_scheme = get_colour_scheme(rankings(code));
                 set_colour_scheme(new_colour_scheme);
             }
