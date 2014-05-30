@@ -29,18 +29,17 @@ COLOUR_SCHEMES = {
         "#bf0033"  // Red
     ],
 
-//TODO: Genealise this, and make it more red.
     point_awarders : [
-        "#00e520", // Green
-        "#07db1f",
-        "#0fd21e",
-        "#16c91e",
-        "#1ec01d",
-        "#26b71d",
-        "#2dae1c",
-        "#35a41c",
-        "#3d9b1b",
-        "#44921b",
+        "#00e519", // Green
+        "#15de16",
+        "#2ad813",
+        "#3fd210",
+        "#54cc0d",
+        "#6ac60b",
+        "#7fc008",
+        "#94ba05",
+        "#a9b402",
+        "#bfae00", // Yellowish green
         "#ffffff", // White
         "#ffffff",
         "#ffffff",
