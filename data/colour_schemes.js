@@ -56,6 +56,7 @@ COLOUR_SCHEMES = {
         "#ffffff",
         "#ffffff",
         "#ffffff",
+        "#ffffff",
         "#ffffff"
     ],
 
