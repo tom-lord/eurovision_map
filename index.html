@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui-1.10.4/css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet">
+	<script src="jquery-ui-1.10.4/js/jquery-1.10.2.js"></script>
+	<script src="jquery-ui-1.10.4/js/jquery-ui-1.10.4.js"></script>
+	<script>
+	$(function() {
+		$( "#button" ).button();
+		$( "#radioset" ).buttonset();
+	});
+	</script>
+</head>
+<body>
+<!-- Button -->
+<h2 class="demoHeaders">Button</h2>
+<button id="button">A button element</button>
+<form style="margin-top: 1em;">
+	<div id="radioset">
+		<input type="radio" id="radio1" name="radio"><label for="radio1">Choice 1</label>
+		<input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">Choice 2</label>
+		<input type="radio" id="radio3" name="radio"><label for="radio3">Choice 3</label>
+	</div>
+</form>
+</body>
+</html>

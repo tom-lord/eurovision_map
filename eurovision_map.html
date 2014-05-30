@@ -4,21 +4,23 @@
   <head>
     <title>JQVMap - Europevision Map</title>
     
-    <link href="./jqvmap/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="jqvmap/jqvmap.css" rel="stylesheet">
+	<link href="jquery-ui-1.10.4.custom/css/start/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<script src="jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+	<script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
     
-    <script src="./jqvmap/jquery.min.js" type="text/javascript"></script>
-    <script src="./jqvmap/jquery.vmap.js" type="text/javascript"></script>
-    <script src="./jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
-    <script src="./data/colour_schemes.js" type="text/javascript"></script>
-    <script src="./data/results/2014/combined.js" type="text/javascript"></script>
-    <script src="./data/country_lists/2014_contestants.js" type="text/javascript"></script>
-    <script src="./data/country_lists/countries_on_map.js" type="text/javascript"></script>
-    <script src="./lib/helpers.js" type="text/javascript"></script>
-    <script src="./lib/colour_scheme.js" type="text/javascript"></script>
-    <script src="./lib/config.js" type="text/javascript"></script>
-    <script src="./lib/voting_systems.js" type="text/javascript"></script>
-    <script src="./lib/labels.js" type="text/javascript"></script>
-    <script src="./lib/buttons.js" type="text/javascript"></script>
+    <script src="jqvmap/jquery.vmap.js" type="text/javascript"></script>
+    <script src="jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+    <script src="data/colour_schemes.js" type="text/javascript"></script>
+    <script src="data/results/2014/combined.js" type="text/javascript"></script>
+    <script src="data/country_lists/2014_contestants.js" type="text/javascript"></script>
+    <script src="data/country_lists/countries_on_map.js" type="text/javascript"></script>
+    <script src="lib/helpers.js" type="text/javascript"></script>
+    <script src="lib/colour_scheme.js" type="text/javascript"></script>
+    <script src="lib/config.js" type="text/javascript"></script>
+    <script src="lib/voting_systems.js" type="text/javascript"></script>
+    <script src="lib/labels.js" type="text/javascript"></script>
+    <script src="lib/buttons.js" type="text/javascript"></script>
     
     <script type="text/javascript">
     jQuery(document).ready(function() {
@@ -53,20 +55,29 @@
   </head>
   <body>
     <div id="vmap" style="width: 680px; height: 520px;"></div>
-    Set vote type:
-    <button onclick="setVoteType('from_country')">From Country</button>
-    <button onclick="setVoteType('to_country')">To Country</button>
-    <br>
-    Show votes from:
-    <button onclick="setVoters('combined')">Combined (50/50 split)</button>
-    <button onclick="setVoters('televote')">Televote (public)</button>
-    <button onclick="setVoters('jury')">Jury panel</button>
-    <br>
-    Select year:
-    <button onclick="setYear(2014)">2014</button>
-    <br>
-    Set colour scheme:
-    <button onclick="setColourScheme('green_to_red')">Full spectrum</button>
-    <button onclick="setColourScheme('point_awarders')">Point awarders (top 10)</button>
+    <form style="margin-top: 1em;">
+        <div id="vote_type_set">
+            Set vote type:
+            <input type="radio" id="radio1" name="vote_type" onclick="setVoteType('from_country')" checked="checked"><label for="radio1">From Country</label>
+            <input type="radio" id="radio2" name="vote_type" onclick="setVoteType('to_country')"><label for="radio2">To Country</label>
+            <input type="radio" id="radio3" name="vote_type" onclick="setVoteType('spearman_ranked')"><label for="radio3">Spearman Ranked</label>
+            <input type="radio" id="radio4" name="vote_type" onclick="setVoteType('final_scores')"><label for="radio4">Final Scores</label>
+        </div>
+        <div id="votes_from_set">
+            Show votes from:
+            <input type="radio" id="radio5" name="votes_from" onclick="setVotesFrom('combined')" checked="checked"><label for="radio5">Combined (50/50 split)</label>
+            <input type="radio" id="radio6" name="votes_from" onclick="setVotesFrom('televote')"><label for="radio6">Televote (public)</label>
+            <input type="radio" id="radio7" name="votes_from" onclick="setVotesFrom('jury')"><label for="radio7">Jury panel</label>
+        </div>
+        <div id="year_set">
+            Select year:
+            <input type="radio" id="radio8" name="year" onclick="setYear(2014)" checked="checked"><label for="radio8">2014</label>
+        </div>
+        <div id="colour_scheme_set">
+            Select colour scheme:
+            <input type="radio" id="radio9" name="colour_scheme" onclick="setColourScheme('green_to_red')" checked="checked"><label for="radio9">Full spectrum</label>
+            <input type="radio" id="radio10" name="colour_scheme" onclick="setColourScheme('point_awarders')"><label for="radio10">Point awards (top 10)</label>
+        </div>
+    </form>
   </body>
 </html>
