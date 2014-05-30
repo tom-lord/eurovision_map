@@ -49,6 +49,13 @@
                     return;
                 }
                 var new_colour_scheme = get_colour_scheme(rankings(code));
+                if( CONFIG.vote_type != "to_country" )
+                {
+                    new_colour_scheme = collect(
+                        new_colour_scheme,
+                        non_contestants_colour_scheme()
+                    );
+                }
                 set_colour_scheme(new_colour_scheme);
             }
         });
