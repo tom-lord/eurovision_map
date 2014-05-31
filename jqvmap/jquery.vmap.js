@@ -468,6 +468,7 @@
       if (!regionClickEvent.isDefaultPrevented()) {
         if (map.selectedRegions.indexOf(code) !== -1) {
           map.deselect(code, path);
+          map.select(code, path); // Don't deselect if clicking a region twice.
         } else {
           map.select(code, path);
         }
