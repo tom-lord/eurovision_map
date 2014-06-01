@@ -59,6 +59,12 @@
         });
     });
     </script>
+    <style> // A maintainable way to make buttons align nicely
+      form  { display: table;      }
+      div   { display: table-row;  }
+      label { display: table-cell; }
+      input { display: table-cell; }
+    </style>
   </head>
   <body>
     <div id="vmap" style="width: 680px; height: 520px;"></div>
@@ -79,11 +85,12 @@
         <div id="year_set">
             Select year:
             <input type="radio" id="radio8" name="year" onclick="setYear(2014)" checked="checked"><label for="radio8">2014</label>
+            <input type="radio" id="radio9" name="year" onclick="alert('Not yet implemented')"><label for="radio9">2013</label>
         </div>
         <div id="colour_scheme_set">
             Select colour scheme:
-            <input type="radio" id="radio9" name="colour_scheme" onclick="setColourScheme('green_to_red')" checked="checked"><label for="radio9">Full spectrum</label>
-            <input type="radio" id="radio10" name="colour_scheme" onclick="setColourScheme('point_awarders')"><label for="radio10">Point awards (top 10)</label>
+            <input type="radio" id="radio10" name="colour_scheme" onclick="setColourScheme('green_to_red')" checked="checked"><label for="radio10">Full spectrum</label>
+            <input type="radio" id="radio11" name="colour_scheme" onclick="setColourScheme('point_awarders')"><label for="radio11">Point awards (top 10)</label>
         </div>
     </form>
   </body>
