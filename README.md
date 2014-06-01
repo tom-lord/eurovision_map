@@ -12,7 +12,7 @@ the way that this data is displayed is highly configurable.
 ####Vote type:
     from_country    - Display votes awarded BY the selected country
     to_country      - Disaply votes awarded TO the selected country
-    spearman_ranked - Display how "fairly" the country voted, given the final score (NOT YET IMPLEMENTED!)
+    spearman_ranked - Display how "fairly" the country voted, given the final score
     final_scores    - Display final voting scores
 
 ####Votes from:
@@ -30,3 +30,11 @@ the way that this data is displayed is highly configurable.
     Point awards    - Only colour countries that were awarded any points. (This makes certain patterns easier to see.)
 
 (Note: Since 1975, the top 10 countries have been awarded points. Before that, it gets a lot more complicated.)
+
+
+###TODO:
++ Add data. Lots more data.
++ Make clicking the buttons automatically "refresh" the map. (This may involve either a slightly hacky solution, or changing the JQVMap API source code.)
++ Add more funky GUI features, because why not.
++ Properly resolve a slight bodge that's currenly put in for televote/jury votes: A couple of coutries didnt HAVE a televote/jury!!! I've hidden that fact, currently.
++ Make statistical analysis tools better... Spearman's rank WORKS, but isn't very useful.
