@@ -34,7 +34,8 @@ the way that this data is displayed is highly configurable.
 
 ###TODO:
 + Add data. Lots more data.
-+ Make clicking the buttons automatically "refresh" the map. (This may involve either a slightly hacky solution, or changing the JQVMap API source code.)
 + Add more funky GUI features, because why not.
 + Properly resolve a slight bodge that's currenly put in for televote/jury votes: A couple of coutries didnt HAVE a televote/jury!!! I've hidden that fact, currently.
 + Make statistical analysis tools better... Spearman's rank WORKS, but isn't very useful.
++ Add a "difference" mode, to display how much the televote/jury votes AGREED with eath other.
++ Possibly make the "verbose_label" display a lot more: It could show ALL OF the combined, jury and public votes/score, rather than just the cirrently seleced mode. In doing this, I could also significantly improve performance by only making each calculation of "to_votes" etc once per click rather than 30-odd times!!
