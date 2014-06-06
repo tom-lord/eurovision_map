@@ -19,6 +19,7 @@ the way that this data is displayed is highly configurable.
     combined        - The scores actually awarded to each country, in the competition
     televote        - The scores as given by the public vote ONLY
     jury            - The scores as given by the jury panel ONLY
+    difference      - Display how closely the jury and televotes were in agreement
 
 (Note: For most years, this "full breakdown" of split vote scores is unfortunately unavailable.)
 
