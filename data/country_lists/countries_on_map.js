@@ -115,5 +115,6 @@ MAP = {
         "tr", // Turkey
         "ua"  // Ukraine
         //Also, Yugoslavia (Not on map!!!)
+        //And "rest of world" (2013) - televote
     ]
 }
