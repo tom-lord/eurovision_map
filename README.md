@@ -21,10 +21,12 @@ the way that this data is displayed is highly configurable.
     jury            - The scores as given by the jury panel ONLY
     difference      - Display how closely the jury and televotes were in agreement
 
-(Note: For most years, this "full breakdown" of split vote scores is unfortunately unavailable.)
+The above two options actually show a *lot* of information! For example, "Final Scores" + "Difference" modes show, in descending order, which entries were the most controvertial between the juries and public.
 
 ####Year:
-    Select competition year (currenty only 2014 available)
+    Select competition year
+
+(Note: Different years have different amounts of data available. For most years, features like "televote" and "full spectrum" will unfortunately need to be disabled.)
 
 ####Colour Scheme:
     Full spectrum   - Display the full green-->red colours for all countries
