@@ -12,8 +12,8 @@ the way that this data is displayed is highly configurable.
 ####Vote type:
     from_country    - Display votes awarded BY the selected country
     to_country      - Disaply votes awarded TO the selected country
-    spearman_ranked - Display how "fairly" the country voted, given the final score
     final_scores    - Display final voting scores
+    spearman_ranked - Display how "fairly" the country voted, given the final score
 
 ####Votes from:
     combined        - The scores actually awarded to each country, in the competition
